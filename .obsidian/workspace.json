@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "f3eb1044585a34f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbc8f32e9ae56920",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cef234bc5ddf322",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Gemini - A Family of Highly Capable Multimodal Models"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f87778ec44c61591",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f44fc4bcb7f26f33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "In-Depth/Gemini In-Depth.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gemini In-Depth"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf214789eec8ce70",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bbd258fe44505ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1abff3edcdcaa9e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "311b9f37d8020024",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Definition",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a0f496c428b1192e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 211.5
+  },
+  "right": {
+    "id": "411c95cc4c5bf7a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8629e00c7735308",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c2bf2e4091ae5a0",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "6bc7a7c1e5d0ef32",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "34bc32a23eaf3e00",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "d817df11e55a5a2f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6b09db8fb5a0196c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "7cef234bc5ddf322",
+  "lastOpenFiles": [
+    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
+    "In-Depth/Gemini In-Depth.md",
+    "Definitions/Generalist AI Model.md",
+    "Definitions/AlphaCode & AlphaCode 2.md",
+    "Definitions/Crossmodal AI.md",
+    "[[Natively.md",
+    "Definitions/Natively Multimodal AI.md",
+    "Resources/2404.18416v2 (1).pdf",
+    "Resources/2503.20020v1.pdf",
+    "Resources/2203.15556v1.pdf",
+    "Resources/2005.14165v4.pdf",
+    "Resources/gpt-4-5-system-card-2272025.pdf",
+    "Resources/2304.01852v4.pdf",
+    "Resources/2311.12131v1.pdf",
+    "Over All In-Depth Conclusion.md",
+    "Mind Maps/Multimodals Mind Map.pdf",
+    "Decoding AI (An In-Depth Exploration).md",
+    "Definitions/Single-Modality AI.md",
+    "Definitions/Multimodals.md",
+    "Definitions/Deep Learning.md",
+    "Definitions/Neural Network.md",
+    "Definitions/AI frameworks.md",
+    "Definitions/State-of-the-Art (SOTA) Model.md",
+    "Definitions/MMLU (Massive Multitask Language Understanding).md",
+    "Resources/2311.12131v1.pdf.crdownload",
+    "NotebookLM Mind Map (1).png",
+    "Mind Maps/Drawing 2025-04-07 05.25.13.excalidraw.md",
+    "AI frame[Neural Network.md",
+    "tags/Gemini.md",
+    "Untitled.md",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2025-04-05 13.24.39.excalidraw.md",
+    "copilot-conversations/Untitled_Chat@20250405_133753.md",
+    "Welcome.md",
+    "the beggning.md"
+  ]
+}
