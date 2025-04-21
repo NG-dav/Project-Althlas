@@ -6,6 +6,7 @@
       {
         "id": "fbc8f32e9ae56920",
         "type": "tabs",
+        "dimension": 58.44636251541308,
         "children": [
           {
             "id": "7cef234bc5ddf322",
@@ -24,6 +25,7 @@
       {
         "id": "f87778ec44c61591",
         "type": "tabs",
+        "dimension": 41.55363748458692,
         "children": [
           {
             "id": "f44fc4bcb7f26f33",
@@ -199,8 +201,15 @@
   },
   "active": "7cef234bc5ddf322",
   "lastOpenFiles": [
-    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
+    "Resources/Deep Research AI tools list_.pdf",
     "In-Depth/Gemini In-Depth.md",
+    "Definitions/Tokens.md",
+    "Definitions/Reinforcement Learning from Human Feedback (RLHF).md",
+    "Definitions/Reinforcement Learning (RL).md",
+    "Definitions/Unsupervised Learning.md",
+    "Definitions/Supervised Learning.md",
+    "Definitions/AlphaCode & AlphaCode2.md",
+    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
     "Definitions/Generalist AI Model.md",
     "Definitions/AlphaCode & AlphaCode 2.md",
     "Definitions/Crossmodal AI.md",
@@ -229,10 +238,6 @@
     "AI frame[Neural Network.md",
     "tags/Gemini.md",
     "Untitled.md",
-    "Untitled.canvas",
-    "Excalidraw/Drawing 2025-04-05 13.24.39.excalidraw.md",
-    "copilot-conversations/Untitled_Chat@20250405_133753.md",
-    "Welcome.md",
-    "the beggning.md"
+    "Untitled.canvas"
   ]
 }
