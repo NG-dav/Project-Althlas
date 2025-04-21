@@ -12,12 +12,14 @@
             "id": "7cef234bc5ddf322",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf"
+                "file": "Definitions/AlphaCode & AlphaCode2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Gemini - A Family of Highly Capable Multimodal Models"
+              "icon": "lucide-file",
+              "title": "AlphaCode & AlphaCode2"
             }
           }
         ]
@@ -201,17 +203,17 @@
   },
   "active": "7cef234bc5ddf322",
   "lastOpenFiles": [
+    "Definitions/AlphaCode & AlphaCode 2.md",
+    "Definitions/AlphaCode & AlphaCode2.md",
+    "Definitions/Reinforcement Learning from Human Feedback (RLHF).md",
+    "Definitions/Reinforcement Learning (RL).md",
+    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
     "Resources/Deep Research AI tools list_.pdf",
     "In-Depth/Gemini In-Depth.md",
     "Definitions/Tokens.md",
-    "Definitions/Reinforcement Learning from Human Feedback (RLHF).md",
-    "Definitions/Reinforcement Learning (RL).md",
     "Definitions/Unsupervised Learning.md",
     "Definitions/Supervised Learning.md",
-    "Definitions/AlphaCode & AlphaCode2.md",
-    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
     "Definitions/Generalist AI Model.md",
-    "Definitions/AlphaCode & AlphaCode 2.md",
     "Definitions/Crossmodal AI.md",
     "[[Natively.md",
     "Definitions/Natively Multimodal AI.md",
@@ -232,7 +234,6 @@
     "Definitions/AI frameworks.md",
     "Definitions/State-of-the-Art (SOTA) Model.md",
     "Definitions/MMLU (Massive Multitask Language Understanding).md",
-    "Resources/2311.12131v1.pdf.crdownload",
     "NotebookLM Mind Map (1).png",
     "Mind Maps/Drawing 2025-04-07 05.25.13.excalidraw.md",
     "AI frame[Neural Network.md",
