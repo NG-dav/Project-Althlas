@@ -20,8 +20,65 @@
               "icon": "lucide-file",
               "title": "Decoding AI (An In-Depth Exploration)"
             }
+          },
+          {
+            "id": "121826897e0e0c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definitions/Supervised Learning.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Supervised Learning"
+            }
+          },
+          {
+            "id": "def9f216888ca6e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definitions/Deep Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deep Learning"
+            }
+          },
+          {
+            "id": "3032b0e716efffe2",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.nature.com/articles/nature14539",
+                "title": "Deep learning | Nature",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Deep learning | Nature"
+            }
+          },
+          {
+            "id": "911e1c3b02a95203",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://blog.google/technology/ai/google-gemini-ai/#sundar-note",
+                "title": "Introducing Gemini: Google’s most capable AI model yet",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Introducing Gemini: Google’s most capable AI model yet"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,15 +234,33 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "copilot:Open Copilot Chat": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1abff3edcdcaa9e6",
+  "active": "def9f216888ca6e9",
   "lastOpenFiles": [
-    "Decoding AI (An In-Depth Exploration).md",
+    "Definitions/Deep Learning.md",
+    "Definitions/Multimodals.md",
+    "Mind Maps/Multimodals Mind Map.pdf",
+    "Definitions/Supervised Learning.md",
+    "Definitions/Neural Network.md",
+    "Definitions/AI frameworks.md",
+    "Definitions/MMLU (Massive Multitask Language Understanding).md",
+    "Definitions/State-of-the-Art (SOTA) Model.md",
+    "Definitions/Generalist AI Model.md",
+    "Definitions/Natively Multimodal AI.md",
+    "Definitions/Crossmodal AI.md",
+    "Definitions/Single-Modality AI.md",
+    "Definitions/Unsupervised Learning.md",
+    "Definitions/AlphaCode & AlphaCode2.md",
     "Definitions/Reinforcement Learning (RL).md",
-    "Definitions/Tokens.md",
     "Definitions/Reinforcement Learning from Human Feedback (RLHF).md",
+    "Definitions/Tokens.md",
+    "Decoding AI (An In-Depth Exploration).md",
     "1, 2.md",
     "Resources/DeepSeek_R1.pdf",
     "Resources/Addendum to GPT-4o System Card - Native image generation.pdf",
@@ -196,24 +271,10 @@
     "Resources/GPT-4 Technical Report.pdf",
     "Resources/2404.18416v2.pdf",
     "Resources/Capabilities of Gemini Models in Medicine.pdf",
-    "Resources/Gemini Robotics - Bringing AI into the Physical World.pdf",
-    "Definitions/AlphaCode & AlphaCode2.md",
     "[[Natively.md",
     "Definitions/AlphaCode & AlphaCode 2.md",
     "In-Depth/Gemini In-Depth.md",
-    "Definitions/Unsupervised Learning.md",
-    "Definitions/Supervised Learning.md",
-    "Definitions/Generalist AI Model.md",
-    "Definitions/Crossmodal AI.md",
-    "Definitions/Natively Multimodal AI.md",
     "Over All In-Depth Conclusion.md",
-    "Definitions/Single-Modality AI.md",
-    "Definitions/Multimodals.md",
-    "Definitions/Deep Learning.md",
-    "Definitions/Neural Network.md",
-    "Definitions/AI frameworks.md",
-    "Definitions/State-of-the-Art (SOTA) Model.md",
-    "Definitions/MMLU (Massive Multitask Language Understanding).md",
     "NotebookLM Mind Map (1).png",
     "Mind Maps/Drawing 2025-04-07 05.25.13.excalidraw.md",
     "AI frame[Neural Network.md",
