@@ -10,7 +10,6 @@ tags:
   - RewardMaximization
 aliases: [RL, Learning from Interaction]
 ---
-
 ### Reinforcement Learning (RL): The Core Concept (Simple Version)
 
 **Reinforcement Learning** is like teaching an AI ==**agent**== (think of it as a virtual robot or player) to make smart decisions through **trial and error**[^1][^2][^4]. The [[Agent (RL)|agent]] tries out different ==**actions**== in a specific ==**environment**== (like a game or a simulation)[^1][^3][^4]. Based on its actions, it receives ==**rewards**== (like points or treats) for good moves and possibly ==**penalties**== for bad ones[^1][^3][^5]. The agent's goal is to figure out the best strategy (called a ==**policy**==) to get the most cumulative rewards over time[^1][^3][^5][^6].

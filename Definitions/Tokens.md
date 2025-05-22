@@ -6,7 +6,6 @@ tags:
   - Tokenization
 aliases: [AI Tokens, LLM Tokens, Token]
 ---
-
 # Tokens (in AI/LLMs)
 
 ## Core Concept

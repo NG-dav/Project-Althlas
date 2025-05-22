@@ -22,7 +22,7 @@ This report introduces **Gemini**, a new family of highly capable multimodal mod
 ## Key Takeaways / Overview
 
 *   **Model Family:** Consists of three sizes:
-    *   **Ultra:** For highly complex tasks, achieving state-of-the-art (SOTA) performance.
+    *   **Ultra:** For highly complex tasks, achieving [[State-of-the-Art (SOTA) Model]] performance.
     *   **Pro:** Optimized for performance, scalability, and cost-effectiveness.
     *   **Nano (Nano-1 & Nano-2):** Designed for on-device, memory-constrained applications, trained via distillation.
     ![[_- visual selection (1).png]]
@@ -30,7 +30,7 @@ This report introduces **Gemini**, a new family of highly capable multimodal mod
 *   **State-of-the-Art Performance:**
     *   Gemini Ultra advances SOTA in **30 out of 32** widely used academic benchmarks.
     *   Notably, it's the first model to achieve **human-expert performance on [[MMLU (Massive Multitask Language Understanding)|MMLU]]** (Massive Multitask Language Understanding) with a score of 90.04%.
-    *   Improves [[State-of-the-Art (SOTA) Model|SOTA]] in **all 20 [[Multimodals]] benchmarks** examined.
+    *   Improves [[State-of-the-Art (SOTA) Model|SOTA]] in **all 20 [[Multimodal AI]] benchmarks** examined.
 	
 	![[_- visual selection (2).png]]
 --- 
@@ -44,8 +44,8 @@ This report introduces **Gemini**, a new family of highly capable multimodal mod
 
 ## Model Architecture & Innovations
 
-*   Built on **Transformer decoders** (Vaswani et al., 2017b).
-*   Supports a **32k context length**.
+*   Built on **[[Transformer Decoders]]** (Vaswani et al., 2017b).
+*   Supports a **[[32k context length|32k context length]]**.
 *   Employs efficient attention mechanisms like *multi-query attention* (Shazeer, 2019a).
 *   **Visual Encoding:** Inspired by Flamingo, CoCa, and PaLI, but critically, Gemini is multimodal from the ground up.
 *   **Native Image Output:** Can generate images using *discrete image tokens* (Ramesh et al., 2021; Yu et al., 2022b).
@@ -55,16 +55,16 @@ This report introduces **Gemini**, a new family of highly capable multimodal mod
 ## Training: Infrastructure & Dataset
 
 ### Infrastructure
-*   Trained on Google's **TPUv4 and TPUv5e accelerators**.
-*   Gemini Ultra training involved a large fleet of TPUv4s across multiple datacenters.
+*   Trained on Google's **[[TPUv4 and TPUv5e Accelerators]]**.
+*   Gemini Ultra training involved a large fleet of [[TPUv4 and TPUv5e Accelerators|TPUv4]] across multiple datacenters.
 *   Utilized JAX, Pathways, GSPMD partitioner, and the MegaScale XLA compiler for stable, large-scale training.
 *   Achieved **97% goodput** for the largest training job by using redundant in-memory copies for rapid recovery from hardware failures (an improvement from 85% for PaLM/PaLM-2).
-*   Addressed challenges like "Silent Data Corruption (SDC)" at scale.
+*   Addressed challenges like "[[Silent Data Corruption (SDC)]]" at scale.
 
 ### Dataset
-*   **Multimodal and multilingual** pre-training dataset.
+*   **[[Multimodal AI|Multi-modal]] and [[Multilingual]]** pre-training dataset.
 *   Sources: Web documents, books, code, and includes image, audio, and video data.
-*   Utilizes a **SentencePiece tokenizer** trained on a large sample of the entire corpus for improved vocabulary and efficiency, especially for non-Latin scripts.
+*   Utilizes a **[[SentencePiece Tokenizer]]** trained on a large sample of the entire corpus for improved vocabulary and efficiency, especially for non-Latin scripts.
 *   Training token counts followed Hoffmann et al. (2022) for large models, while smaller models were trained for significantly more tokens (similar to Touvron et al., 2023a).
 *   Applied quality filters and safety filtering.
 *   **Staged training:** Mixture composition altered during training, increasing domain-relevant data towards the end.
@@ -79,27 +79,27 @@ Gemini models were evaluated across a wide range of benchmarks.
 ### Text Capabilities
 
 *   **Overall Reasoning & Knowledge:**
-    *   **MMLU:** Gemini Ultra achieves **90.04%** using a novel CoT prompting approach that accounts for model uncertainty (*uncertainty-routed chain-of-thought*), surpassing the prior SOTA (86.4%) and human-expert performance (89.8%).
+    *   **[[MMLU (Massive Multitask Language Understanding)|MMLU]]:** Gemini Ultra achieves **90.04%** using a [[Novel CoT Prompting]] approach that accounts for model uncertainty (*uncertainty-routed chain-of-thought*), surpassing the prior SOTA (86.4%) and human-expert performance (89.8%).[[]]
         >[!SUCCESS] MMLU Landmark
-        >First model to exceed human-expert performance on MMLU.
-    *   **BIG-Bench-Hard:** Ultra scores 83.6%.
+        >First model to exceed human-expert performance on [[MMLU (Massive Multitask Language Understanding)|MMLU]].
+    *   **[[BIG-Bench-Hard (BBH)]]:** Ultra scores 83.6%.
 *   **Mathematics:**
-    *   **GSM8K:** Ultra achieves 94.4% (up from 92%).
-    *   **MATH:** Ultra achieves 53.2% (4-shot).
+    *   **[[GSM8K and MATH Benchmarks|GSM8K]]:** Ultra achieves 94.4% (up from 92%).
+    *   **[[GSM8K and MATH Benchmarks|MATH Benchmark]]:** Ultra achieves 53.2% (4-shot).
     *   Outperforms GPT-4 on harder American Mathematical Competitions questions (32% vs 30%).
 *   **Coding:**
-    *   **HumanEval:** Instruction-tuned Gemini Ultra scores 74.4%.
-    *   **Natural2Code (new held-out benchmark):** Ultra scores 74.9%.
-    *   Powers [[AlphaCode 2]], which ranks in the top 15% on Codeforces (up from top 50% for AlphaCode 1).
-*   **Multilinguality:** (See [[Gemini Multilingual Evaluation]])
-    *   **WMT23 Translation:** Ultra achieves 74.4% avg BLEURT, outperforming GPT-4 (73.8%) and PaLM 2-L (72.7%). Particularly strong in out-of-English directions.
-    *   **Very Low-Resource Languages:** chrF score of 27.0 (1-shot) vs PaLM 2-L's 25.3.
-    *   **MGSM (Multilingual Math):** Ultra scores 79.0% (8-shot).
-    *   **XLSum (Multilingual Summarization):** Ultra achieves 17.6 rougeL.
+    *   **[[HumanEval, Natural2Code, and Codeforces Benchmarks|HumanEval]]:** Instruction-tuned Gemini Ultra scores 74.4%.
+    *   **[[HumanEval, Natural2Code, and Codeforces Benchmarks|Natural2Code]] (new held-out benchmark):** Ultra scores 74.9%.
+    *   Powers [[AlphaCode 2]], which ranks in the top 15% on [[HumanEval, Natural2Code, and Codeforces Benchmarks|Codeforces Benchmark]] (up from top 50% for AlphaCode 1).
+*   **Multilinguality:** (See [[Gemini - A Family of Highly Capable Multimodal Models.pdf|Gemini Multilingual Evaluation]])
+    *   **[[WMT23 Translation, Very Low-Resource Languages, MGSM, and XLSum|WMT23 Translation]]:** Ultra achieves 74.4% avg BLEURT, outperforming GPT-4 (73.8%) and PaLM 2-L (72.7%). Particularly strong in out-of-English directions.
+    *   **[[WMT23 Translation, Very Low-Resource Languages, MGSM, and XLSum|Very Low-Resource Languages]]:** chrF score of 27.0 (1-shot) vs PaLM 2-L's 25.3.
+    *   **[[WMT23 Translation, Very Low-Resource Languages, MGSM, and XLSum|MGSM (Multilingual Math)]]:** Ultra scores 79.0% (8-shot).
+    *   **[[WMT23 Translation, Very Low-Resource Languages, MGSM, and XLSum|XLSum (Multilingual Summarization)]]:** Ultra achieves 17.6 rougeL.
 *   **Long Context:**
     *   Effectively utilizes its 32,768-token context length, shown by synthetic retrieval tests (98% accuracy) and decreasing NLL across sequence positions.
-*   **Factuality:** (See [[Gemini Factuality Evaluation]])
-    *   Post-training significantly improves:
+*   **Factuality:** (See [[Gemini - A Family of Highly Capable Multimodal Models.pdf|Gemini Factuality Evaluation]])
+    *   [[Post-training]] significantly improves:
         *   Closed-Book Inaccuracy: Halved.
         *   Attribution (AIS score): Increased by 50%.
         *   Hedging Accuracy: Up to ~70% from 0%.

@@ -8,7 +8,6 @@ tags:
   - CoreConcept
 aliases: [Multi-modal AI, Cross-Modal AI (related)]
 ---
-
 # Multimodal AI
 
 ## Core Concept

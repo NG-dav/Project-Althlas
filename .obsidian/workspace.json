@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "97c4145a996b5946",
+        "id": "de155b544f502969",
         "type": "tabs",
         "children": [
           {
-            "id": "71dd8524fb36c88d",
+            "id": "56703aa8c71b6699",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Multimodal",
+                "query": "Multilinguality",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,12 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 213.5
   },
   "right": {
     "id": "411c95cc4c5bf7a1",
@@ -184,8 +183,36 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "71dd8524fb36c88d",
+  "active": "56703aa8c71b6699",
   "lastOpenFiles": [
+    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
+    "Gemini - A Family of Highly Capable Multimodal Models(Summary).md",
+    "Definitions/Post-training.md",
+    "Definitions/WMT23 Translation, Very Low-Resource Languages, MGSM, and XLSum.md",
+    "Untitled.canvas",
+    "Definitions/HumanEval, Natural2Code, and Codeforces Benchmarks.md",
+    "Definitions/GSM8K and MATH Benchmarks.md",
+    "Gemini Multilingual Evaluation.md",
+    "Definitions/BIG-Bench-Hard (BBH).md",
+    "Definitions/Novel CoT Prompting.md",
+    "Definitions/SentencePiece Tokenizer.md",
+    "Definitions/Multilingual.md",
+    "Definitions/32k context length.md",
+    "Definitions/Silent Data Corruption (SDC).md",
+    "Gemini App.md",
+    "Definitions/Encoder and Decoder.md",
+    "Universal Speech Model (USM).md",
+    "Definitions/Tokens.md",
+    "Definitions/Transformer Models.md",
+    "Definitions/Reinforcement Learning (RL).md",
+    "Definitions/Single-Modality AI.md",
+    "Definitions/AI frameworks.md",
+    "Definitions/MMLU (Massive Multitask Language Understanding).md",
+    "Definitions/Universal Speech Model (USM).md",
+    "Definitions/Attention Mechanisms in Artificial Intelligence.md",
+    "Definitions/Discrete Image Tokens in AI.md",
+    "Decoding AI (An In-Depth Exploration).md",
+    "What, Why, How, etc",
     "Images/_- visual selection (2).png",
     "Images/_- visual selection (2).png.crdownload",
     "Images/_- visual selection (1).png",
@@ -193,40 +220,12 @@
     "Images/_- visual selection.png",
     "Images/_- visual selection.png.crdownload",
     "Images/Google_Gemini_logo.svg.png",
-    "Gemini - A Family of Highly Capable Multimodal Models(Summary).md",
-    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
     "1_AsXti9JBcuEGIODbisEAYw.jpg",
     "Images",
     "Google_Gemini_logo.svg.png.crdownload",
-    "Over All In-Depth Conclusion.md",
-    "Decoding AI (An In-Depth Exploration).md",
     "1_AsXti9JBcuEGIODbisEAYw.jpg.crdownload",
-    "Definitions/Neural Network.md",
-    "Definitions/Natively Multimodal AI.md",
-    "Definitions/Deep Learning.md",
-    "Definitions/Unimodal Components.md",
-    "Untitled 1.md",
     "audio/read aloud",
     "audio",
-    "Resources/Attention Is All You Need.pdf",
-    "Untitled.canvas",
-    "Definitions/MMLU (Massive Multitask Language Understanding).md",
-    "Definitions/Multimodals.md",
-    "In-Depth/Gemini In-Depth.md",
-    "Definitions/Supervised Learning.md",
-    "Definitions/Unsupervised Learning.md",
-    "Definitions/Reinforcement Learning (RL).md",
-    "Definitions/Reinforcement Learning from Human Feedback (RLHF).md",
-    "Definitions/Tokens.md",
-    "Definitions/AlphaCode & AlphaCode2.md",
-    "Definitions/Crossmodal AI.md",
-    "Definitions/Generalist AI Model.md",
-    "Definitions/AI frameworks.md",
-    "not yet soted/What is a Neural Network?.md",
-    "2025-04-27.md",
-    "Definitions/State-of-the-Art (SOTA) Model.md",
-    "Definitions/Single-Modality AI.md",
-    "1, 2.md",
     "NotebookLM Mind Map (1).png"
   ]
 }

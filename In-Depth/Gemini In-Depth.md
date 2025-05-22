@@ -1,6 +1,6 @@
 Overview
 ----------------------------
-- OK, let's start. Gemini is [[Multimodals]], meaning it can understand image, text, audio, and video.
+- OK, let's start. Gemini is [[Multimodal AI]], meaning it can understand image, text, audio, and video.
 - It comes in three (3) sizes: Ultra, Pro, and Nano.
 - The Ultra model is best at complex reasoning.
 - Gemini Ultra is the **first** **model** to achieve **human-expert performance** on the [[MMLU (Massive Multitask Language Understanding)]].
