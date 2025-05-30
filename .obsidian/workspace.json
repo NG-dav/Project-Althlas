@@ -11,14 +11,10 @@
             "id": "56703aa8c71b6699",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gemini - A Family of Highly Capable Multimodal Models(Summary).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Gemini - A Family of Highly Capable Multimodal Models(Summary)"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 214.5
   },
   "right": {
     "id": "411c95cc4c5bf7a1",
@@ -183,13 +179,18 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "56703aa8c71b6699",
+  "active": "1abff3edcdcaa9e6",
   "lastOpenFiles": [
-    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
+    "Excalidraw/nice.md",
+    "Excalidraw/Drawing 2025-05-30 00.46.05.excalidraw.md",
+    "Untitled.canvas",
+    "Decoding AI (An In-Depth Exploration).md",
     "Gemini - A Family of Highly Capable Multimodal Models(Summary).md",
+    "Excalidraw",
+    "In-Depth/Gemini In-Depth.md",
+    "Resources/Gemini - A Family of Highly Capable Multimodal Models.pdf",
     "Definitions/Post-training.md",
     "Definitions/WMT23 Translation, Very Low-Resource Languages, MGSM, and XLSum.md",
-    "Untitled.canvas",
     "Definitions/HumanEval, Natural2Code, and Codeforces Benchmarks.md",
     "Definitions/GSM8K and MATH Benchmarks.md",
     "Gemini Multilingual Evaluation.md",
@@ -208,10 +209,6 @@
     "Definitions/Single-Modality AI.md",
     "Definitions/AI frameworks.md",
     "Definitions/MMLU (Massive Multitask Language Understanding).md",
-    "Definitions/Universal Speech Model (USM).md",
-    "Definitions/Attention Mechanisms in Artificial Intelligence.md",
-    "Definitions/Discrete Image Tokens in AI.md",
-    "Decoding AI (An In-Depth Exploration).md",
     "What, Why, How, etc",
     "Images/_- visual selection (2).png",
     "Images/_- visual selection (2).png.crdownload",
@@ -225,7 +222,6 @@
     "Google_Gemini_logo.svg.png.crdownload",
     "1_AsXti9JBcuEGIODbisEAYw.jpg.crdownload",
     "audio/read aloud",
-    "audio",
     "NotebookLM Mind Map (1).png"
   ]
 }
